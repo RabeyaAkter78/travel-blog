@@ -1,4 +1,5 @@
 import NavBar from "../NavBar/NavBar";
+import AboutUS from "./AboutUS/AboutUS";
 import Banner from "./Banner/Banner";
 import Faq from "./Faq/Faq";
 import LeatestBlog from "./LeatestBlogs/LeatestBlog";
@@ -15,6 +16,7 @@ const Home = () => {
             <LeatestBlog></LeatestBlog>
             <Faq></Faq>
             <Reviews></Reviews>
+            <AboutUS></AboutUS>
         </div>
     );
 };
